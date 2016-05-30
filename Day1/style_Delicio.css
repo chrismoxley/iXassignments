@@ -1,0 +1,64 @@
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 100px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+* {
+	background-color: black;
+}
+#name {
+	font-size: 35px;
+	color: black;
+	background-color: white;
+	font-family: cursive;
+	margin-left: 50px;
+}
+img {
+	height: 70%;
+	width: 100%;
+}
+#bottom {
+	
+	word-spacing: 150px;
+	color: white;
+	margin-left: 200px;
+}
+#bottom2 {
+	
+	word-spacing: 150px;
+	color: gray;
+	margin-left: 200px;
+}
+#bottom3 {
+	
+	word-spacing: 150px;
+	color: gray;
+	margin-left: 200px;
+}
+#bottom4 {
+	
+	color: gray;
+	margin-left: 200px;
+}
+#bottom5 {
+	word-spacing: 150px;
+	color: gray;
+	margin-left: 200px;
+	
+}
+
+hr {
+	width: 100%;
+	color: grey;
+}
+p {
+	color: grey;
+	display: inline;
+	text-align: center;
+	margin-left: 500px
+	
+}

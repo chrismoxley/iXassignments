@@ -1,0 +1,37 @@
+#header {
+	float:left;
+	margin-left: 5px;
+	
+
+}
+#options {
+	
+	float:middle;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: black;
+	margin-top: 50px;
+	word-spacing: 30px;
+	
+}
+#social {
+	float: right;
+	margin-top: 5px;
+	
+}
+p {
+	font-size: 30px;
+	clear: both;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+hr {
+	width: 100%;
+}
+#footer {
+	font-size: 20px;
+}
+#footer2 {
+	font-size: 20px
+}

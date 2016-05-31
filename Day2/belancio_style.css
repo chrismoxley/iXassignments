@@ -1,0 +1,104 @@
+* {
+	background-color: #F0BF76
+}
+body {
+	padding: 0px;
+	margin: 0;
+}
+.header {
+	color: white;
+	padding-bottom: 80px;
+}
+.logo {
+	float: left;
+	padding-top: 30px;
+	padding-left: 40px
+}
+.nav-links {
+	float: right;
+	word-spacing: 40px;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+.img1 {
+	margin-left: 600px;
+}
+.img1 img {
+	height: 120px;
+	width: 80px
+	margin: auto;
+}
+.image {
+	padding-top: 100px
+
+}
+.image img {
+	margin-left: 300px;
+	height: 500px;
+	width: 700px;
+}
+.top-img {
+	height: 50px;
+}
+.clients {
+	background-color: white;
+	
+}
+.text {
+	font-size: 20px;
+	background-image: url(https://photos-1.dropbox.com/t/2/AACt2x1UgLZIUVHEZ0EcCx8W5SjAq8Dr0sHgy1b5814KMg/12/337874687/png/32x32/1/_/1/2/Screenshot%202016-05-31%2023.03.33.png/ELKHndECGDYgBygH/VCHWS-NGMibrwXyiQNXLCE6RWvrba2yUTapWVlHlTxM?size=2048x1536&size_mode=3);
+}
+.clients img {
+	width: 100%;
+}
+.work {
+	background-color: #94E0CD;
+	height: 200px;
+	text-align: center;
+}
+.work-text {
+	background-color: #94E0CD;
+	padding-top: 50px;
+	color: white;
+	font-size: 25px;
+}
+.button {
+	float: right;
+	border: white solid 1pt;
+	background-color: #94E0CD;
+	color: white;
+	padding: 5px;
+	margin-right: 40px;
+	margin-bottom: 200px;
+	margin-top: -50px;
+}
+.footer {
+	background-color: white;
+}
+.belancio {
+	background-color: white;
+	padding: 20px;
+	font-size: 20px;
+	display: inline-block;
+	
+}
+.details {
+	background-color: white;
+	padding: 20px;
+	font-size: 10px;
+	word-spacing: 10px;
+	display: inline-block;
+	margin-left: 850px
+}
+.sub-footer {
+	background-color: white;
+}
+.Cali {
+	background-color: white;
+	display: inline-block;
+}
+.trademark {
+	background-color: white;
+	display: inline-block;
+	margin-left: 800px
+}

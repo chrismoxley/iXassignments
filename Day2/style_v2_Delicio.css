@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: darkgray;
+
+}
+.header{
+	
+	background-color: white
+}
+.logo {
+	font-size: 30px;
+}
+.navbar {
+	display: inline-block;
+	float: right;
+
+}
+.image {
+	background-image: url(https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg);
+	height: 500px
+
+}
+.img-text {
+	color: white;
+	text-align: center;
+}
+.text-header {
+	margin-bottom: 20px;
+	font-size: 40px;
+	border-bottom: 1px white solid;
+	padding-bottom: 40px;
+	padding-top: 70px;
+
+
+}
+.text-body {
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-top: 20px;
+
+}
+button {
+	margin-top: 20px;
+	background-color: orange;
+	border: none;
+	font-size: 20px;
+}
+.info {
+	clear: both;
+	display: inline-block;
+	color: white;
+}
+.direct-top {
+
+}
+.social {
+	height: 20px;
+	width: 20px;
+	
+}
+.fb img {
+	height: 35px;
+	width: 35px;
+}
+.tweet img {
+	height: 35px;
+	width: 35px;
+}
+.cam img {
+	height: 35px;
+	width: 35px;
+}
+.foursq img {
+	height: 35px;
+	width: 35px;
+}
+.tripadvisor img {
+	height: 35px;
+	width: 35px;
+}
+.yelp img {
+	height: 35px;
+	width: 35px;
+}
+.insta {
+	float: right;
+	margin-left: 800px;
+
+}

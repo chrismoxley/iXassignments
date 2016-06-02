@@ -1,0 +1,16 @@
+.row {
+  text-align: center;
+}
+.header {
+  color: green;
+  font-size: 80px;
+  margin-top: 140px
+}
+.anim {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.download {
+  margin-top: 350px;
+}

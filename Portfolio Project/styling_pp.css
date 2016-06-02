@@ -1,0 +1,345 @@
+body {
+	margin-left: 0px
+	padding-left: 0px;
+	text-align: center;
+	background-color: #6996AD;
+}
+.header {
+	/*border:1pt solid black;*/
+	margin-bottom: 20px;
+}
+.bio-bio {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*	padding-right: 200px;*/
+	margin-left: 20px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+}
+.bio-cause {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 200px;
+	padding-right: 200px;*/
+	margin-left: 250px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+
+}
+.bio-feed {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 250px;*/
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+	margin-left: 290px;
+}
+.pic {
+	background-image: url("https://scontent.xx.fbcdn.net/v/t35.0-12/13340527_1196574780355301_1534797091_o.jpg?oh=c3eef1a74ef9b8fc889a761086e86b7e&oe=57521B94");
+	background-size: 800px;
+	height: 400px;
+	width: 800px;
+	margin: auto;
+	padding: 15px;
+	border: black 1pts solid;
+}
+.quote {
+	color: #F2F2F2;
+	font-size: 24px;
+	padding-right: 120px;
+	padding-left: 120px;
+	font: times;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .35s;
+
+}
+
+.pic:hover .quote {
+	visibility: visible;
+	opacity: .7;
+
+}
+.past {
+
+	font-size: 20pt;
+	font-style: underline;
+}
+.future {
+	font-size: 20pt;
+	font-style: underline;
+}
+ul {
+	text-align: left;
+}
+.cause {
+	background-color: #347c2c;
+}
+.cause-bio {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*	padding-right: 200px;*/
+	margin-left: 20px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .7;
+}
+.cause-cause {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 200px;
+	padding-right: 200px;*/
+	margin-left: 250px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .7;
+
+}
+.top {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+.whitelink {
+	color: white;
+}
+.cause-feed {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 250px;*/
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .7;
+	margin-left: 290px;
+}
+.event {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49oNNcn2CSPdvWTvvu39WqqxVGHGlarEQd2cHElGv2IJ9IW_Fo3ZU8A);
+	background-size: 100%;
+	height: 400px;
+	width: 400px;
+	margin-left: 150px;
+}
+.mission {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .2s;
+	position: absolute;
+	right: 15px;
+	left: 0px;
+	top: 170px;
+	bottom: 10px;
+	font-size: 24px;
+}
+.mission-text {
+	font-size: 20px;
+	padding-right: 0px;
+	padding-top: 120px;
+	padding-left: 0px;
+	font: times;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .2s;
+}
+.event:hover .mission {
+	opacity: 0;
+}
+.event:hover .mission-text{
+	visibility: visible;
+	opacity: 1;
+}
+.pc {
+	background-image: url(https://scontent-frt3-1.xx.fbcdn.net/v/t34.0-12/13348714_705844959519207_1835195951_n.jpg?oh=ba4e4734484aaded91d0fce37b9ec4cd&oe=575335C8);
+	background-size: 100%;
+	height: 400px;
+	width: 400px;
+}
+.me {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .2s;
+	position: absolute;
+	right: 15px;
+	left: 0px;
+	top: 170px;
+	bottom: 10px;
+	font-size: 24px;
+}
+.me-text {
+	font-size: 20px;
+	padding-right: 0px;
+	padding-top: 100px;
+	padding-left: 0px;
+	font: times;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .2s;
+}
+.pc:hover .me {
+	opacity: 0;
+}
+.pc:hover .me-text {
+	visibility: visible;
+	opacity: 1;
+}
+.meaning {
+	background-image: url(http://whitegatefarm.net/images/crops_large.jpg);
+	background-size: 600px;
+	height: 400px;
+	width: 400px;
+	margin-left: 165px;
+}
+.does {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .2s;
+	position: absolute;
+	right: 15px;
+	left: 0px;
+	top: 200px;
+	bottom: 10px;
+	font-size: 24px;
+	color: white;
+}
+.does-text {
+	font-size: 20px;
+	padding-right: 0px;
+	padding-top: 130px;
+	padding-left: 0px;
+	font: times;
+	opacity: 0;
+	color: white;
+	visibility: hidden;
+	transition: opacity .2s;
+}
+.meaning:hover .does {
+	opacity: 0;
+}
+.meaning:hover .does-text {
+	visibility: visible;
+	opacity: 1;
+}
+.involve {
+	background-image: url(https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/t31.0-8/174963_102092166561159_2570282_o.jpg);
+	background-size: 600px;
+	height: 400px;
+	width: 400px;
+}
+.signup {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .2s;
+	position: absolute;
+	right: 15px;
+	left: 0px;
+	top: 200px;
+	bottom: 10px;
+	font-size: 24px;
+	color: white;
+}
+.signup-text {
+	font-size: 20px;
+	padding-right: 0px;
+	padding-top: 200px;
+	padding-left: 0px;
+	font: times;
+	opacity: 0;
+	color: white;
+	visibility: hidden;
+	transition: opacity .2s;
+}
+.involve:hover .signup {
+	opacity: 0;
+}
+.involve:hover .signup-text {
+	visibility: visible;
+	opacity: 1;
+}
+.feed {
+	background-color: #4099FF;
+}
+.feed-bio {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*	padding-right: 200px;*/
+	margin-left: 20px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+}
+.feed-cause {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 200px;
+	padding-right: 200px;*/
+	margin-left: 250px;
+	margin-right: 200px;
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+
+}
+.feed-feed {
+	/*border: 1pt solid black;*/
+	color: black;
+	/*padding-left: 250px;*/
+	display: inline-block;
+	font-size: 24px;
+	color: #F2F2F2;
+	opacity: .8;
+	margin-left: 290px;
+}
+.tintro {
+	font-size: 20px;
+	color: black;
+	padding-bottom: 20px;
+}
+.titles {
+	margin-left: 20px;
+	text-align: left;
+	word-spacing: 195px;
+	color: #F2F2F2;
+	opacity: 1;
+	font-size: 16px; 
+}
+.all_tweets {
+	width: 200px;
+	margin: auto;
+	display: inline-block;	
+}
+.ptweets {
+	position: absolute; left: 1030px;
+	width: 220px;
+}
+.ftweets {
+	position: absolute; left: 30px;
+	width: 220px;
+}
+.stweets {
+	position: absolute; left: 280px;
+	width: 220px;
+}
+.qtweets {
+	position: absolute; left: 530px;
+	width: 220px;
+}
+.ntweets {
+	position: absolute; left: 780px;
+	width: 220px;
+}

@@ -1,3 +1,6 @@
+* {
+	text-align: center;
+}
 .row {
   text-align: center;
 }
@@ -10,7 +13,31 @@
   font-size: 20px;
   color: gray;
   margin-bottom: 20px;
+
 }
-.download {
-  margin-top: 350px;
+.footer {
+
+	margin-bottom: 350px;
+}
+.bouncy {
+	
+	margin-top: 20px;
+	width: 150px;
+	position: relative;
+}
+.dropdown-menu {
+	width: 10%;
+	position: absolute;
+	left: 25px;
+}
+@media (min-width: 1024px) {
+    .ani {
+        position: relative; 
+		right: 200px;
+		margin-top: 20px;   
+}
+@media (max-width: 1024px) {
+    .ani {
+        position: relative;
+
 }

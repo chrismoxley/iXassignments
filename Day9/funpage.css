@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+}
+#box {
+	border: 1pt solid black;
+	padding: 20px;
+	position: absolute;
+	/*transition-delay: .001s;*/
+}

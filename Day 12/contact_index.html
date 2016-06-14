@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact List</title>
+  <link rel="stylesheet" type="style/css" href="./FormVal_style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!--angular-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<!--javascript file-->
+	<script src="./contact_script.js"></script>
+
+	<meta charset="UTF-8">
+</head>
+<body ng-app="FormApp" ng-controller="FormCtrl">
+<div class="wrapper col-md-6">
+  <p ng-repeat="warning in invalid track by $index">{{warning}}</p>
+	<form name="myForm">
+	<input type="text" ng-model="name" placeholder="name">
+	<br>
+	<input type="text" ng-model="phone" placeholder="phone number">
+	<br>
+	<button ng-click="action()">Add Contact!</button>
+  	<p ng-hide="welcome">Successfully added {{name}} to your contact book!</p>
+	<br>
+  <input type="text" placeholder="search here" ng-model="searchbox">
+  <br>
+	<ol id="list">
+     <li ng-repeat="item in contacts | filter: searchbox">{{item}}</li>
+  </ol>
+</html>

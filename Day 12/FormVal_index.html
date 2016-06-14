@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" type="style/css" href="./FormVal_style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!--angular-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<!--javascript file-->
+	<script src="./FormVal_script.js"></script>
+
+	<meta charset="UTF-8">
+	<title>Form Validator</title>
+</head>
+<body ng-app="FormApp" ng-controller="FormCtrl">
+<div class="wrapper col-md-6">
+  <p ng-repeat="warning in invalid track by $index">{{warning}}</p>
+	<form name="myForm" ng-show="success">
+	<input type="text" ng-model="name" placeholder="name">
+	<br>
+	<input type="text" ng-model="phone" placeholder="phone number">
+	<br>
+	<input type="text" ng-model="email" placeholder="email">
+	<br>
+	<input type="password" ng-model="pass1" placeholder="password">
+	<br>
+	<input type="password" ng-model="pass2" placeholder="repeat password">
+	</form>
+	<button ng-click="action()" ng-show="success">Validate</button>
+  <p ng-hide="welcome">Welcome, {{name}}.</p>
+</div>
+	
+</body>
+</html>

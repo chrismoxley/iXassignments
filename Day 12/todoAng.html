@@ -15,7 +15,7 @@
         <div class="wrapper">
           <h1>My to-do list</h1>
           <form ng-submit="addItem()">
-          <input type="text" class="form-control" id="todo-input" ng-model="newItems">
+          <input placeholder="enter shopping list here | click on an item to remove it" type="text" class="form-control" id="todo-input" ng-model="newItems">
           <ol id="list">
             <li ng-repeat="item in items track by $index" ng-click="remove(item)">{{item}}</li>
           </ol>

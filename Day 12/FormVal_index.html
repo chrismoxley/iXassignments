@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<link rel="stylesheet" type="style/css" href="./FormVal_style.css">
+	<link rel="stylesheet" type="text/css" href="FormVal_style.css">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -16,20 +16,25 @@
 	<title>Form Validator</title>
 </head>
 <body ng-app="FormApp" ng-controller="FormCtrl">
-<div class="wrapper col-md-6">
+<h1>Form Validator</h1>
+<div class="wrapper col-md-6 col-md-offset-3">
   <p ng-repeat="warning in invalid track by $index">{{warning}}</p>
 	<form name="myForm" ng-show="success">
-	<input type="text" ng-model="name" placeholder="name">
+	<input  type="text" ng-model="name" placeholder="name" ng-style="myStyle">
 	<br>
-	<input type="text" ng-model="phone" placeholder="phone number">
+	<input type="text" ng-model="phone" placeholder="phone number" ng-style="myStyle">
 	<br>
-	<input type="text" ng-model="email" placeholder="email">
+	<input type="text" ng-model="email" placeholder="email" ng-style="myStyle">
 	<br>
-	<input type="password" ng-model="pass1" placeholder="password">
+	<input  type="password" ng-show="toggle" ng-model="pass1" placeholder="password" ng-style="myStyle">
+  <input  type="text" ng-hide="toggle" ng-model="pass1" placeholder="password" ng-style="myStyle">
 	<br>
-	<input type="password" ng-model="pass2" placeholder="repeat password">
+	<input type="password" ng-show="toggle" ng-model="pass2" placeholder="repeat password" ng-style="myStyle">
+  <input type="text" ng-hide="toggle" ng-model="pass2" placeholder="repeat password" ng-style="myStyle">
 	</form>
 	<button ng-click="action()" ng-show="success">Validate</button>
+  <button ng-click="passtoggle()" ng-show="success">Show/Hide Password</button>
+  <button ng-click="clear()" ng-show="success">Clear form</button>
   <p ng-hide="welcome">Welcome, {{name}}.</p>
 </div>
 	

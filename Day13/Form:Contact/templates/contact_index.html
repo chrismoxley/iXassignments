@@ -1,0 +1,18 @@
+<div ng-controller="ContactCtrl">
+<div class="wrapper col-md-6">
+  <p ng-repeat="warning in invalid track by $index">{{warning}}</p>
+	<form name="myForm">
+	<input type="text" ng-model="name" placeholder="name">
+	<br>
+	<input type="text" ng-model="phone" placeholder="phone number">
+	<br>
+	<button ng-click="action()">Add Contact!</button>
+  	<p ng-hide="welcome">Successfully added {{name}} to your contact book!</p>
+	<br>
+  <input type="text" placeholder="search here" ng-model="searchbox">
+  <br>
+	<ol id="list">
+     <li ng-repeat="item in contacts | filter: searchbox">{{item}}</li>
+  </ol>
+  </form>
+</div>
